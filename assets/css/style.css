@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ffb900;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 20px 41px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.btn:hover {
+  outline: 2px solid #1ebfc1;
+  background: #fff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1ebfc1;
+}
+/*  */
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100%-48px);
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 64px 0px 0px;
+  justify-content: space-between;
+}
+
+.header .nav ul {
+  display: flex;
+}
+.header .nav li {
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #2f3a3b;
+}
+
+.header .actions .link {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #494949;
+}
+
+.header .actions .btn-sign_up {
+  margin-left: 24px;
+  background: #ffffff;
+  border: #1ebfc1 solid 1px;
+  width: 108px;
+  padding: 12px 23px;
+  color: #1ebfc1;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Hero */
+
+.hero {
+  padding: 62px 0px 72px 0px;
+  /* background: #1ebfc1; */
+}
+.hero .body {
+  display: flex;
+  gap: 70px;
+}
+
+.hero .info {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.hero .info .sub-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #767e7e;
+}
+.hero .info .title {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 72px;
+  /* or 116% */
+
+  color: #0d1111;
+}
+
+.hero .desc {
+  margin: 22px 0;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  /* or 167% */
+
+  color: #5f5b53;
+}
+
+.hero .cta-block {
+  margin-top: 52px;
+}
+
+.hero .watch-video {
+  margin-left: 50px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+.hero .watch-video .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  background: #ffffff;
+  box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+}
+
+.hero .watch-video .icon:hover {
+  outline: 2px solid #1ebfc1;
+}
+
+.hero .image-block {
+  position: relative;
+  margin-left: auto;
+  width: 49.232%;
+}
+
+.hero .image-block .thumb {
+  /* position: absolute;
+  right: 0px; */
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
+
+.hero .image-block .course {
+  background: #ffffff;
+
+  top: 149px;
+  left: -35px;
+  position: absolute;
+  padding: 17px 10px 18px 25px;
+  display: flex;
+  width: 157px;
+  height: 75px;
+  box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+}
+.hero .image-block .course-title {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 15px;
+
+  color: #0d1111;
+}
+/* Features */
+
+.features {
+  margin-top: 130px;
+}
+.features .features-top {
+  width: 590px;
+}
+.features .features-top .sub-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #767e7e;
+}
+.features .features-top .title {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 56px;
+  /* or 133% */
+
+  color: #0d1111;
+}
+.features .features-top .desc {
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #767e7e;
+}
+.features .feature-list {
+  margin-top: 80px;
+  display: flex;
+  gap: 200px;
+}
+.features .feature-list .item {
+  width: 224px;
+}
+.feature-list .item .title {
+  margin-top: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #0d1111;
+}
+.feature-list .item .desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* or 169% */
+
+  color: #9da6a5;
+}
